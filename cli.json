@@ -5,9 +5,9 @@
     "commands" : [
         {
             "name":"diagnostics",
-            "version":"0.1.0",
+            "version":"0.1.2",
             "aliases": ["diag", "diagnostic-tools", "edge-diagnostics"],
-            "description":"The Diagnostic Tools allows you to diagnose many common problems Akamai customers experience when delivering content to their end users.",
+            "description":"The Diagnostic Tools allows you to diagnose many common problems Akamai customers experience when delivering content to their end users. updated description",
             "bin": "https://github.com/akamai/cli-diagnostics/releases/download/{{.Version}}/akamai-{{.Name}}-{{.Version}}-{{.OS}}{{.Arch}}{{.BinSuffix}}",
             "auto-complete": true
         }
